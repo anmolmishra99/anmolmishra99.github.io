@@ -72,12 +72,12 @@ module.exports = {
             to: '2012'
         }
     ],
-    blog: {
-        // Display blog posts from your medium or dev.to account. (Optional)
-        source: 'dev.to', // medium | dev.to
-        username: 'arifszn',
-        limit: 3 // How many posts to display. Max is 10.
-    },
+//     blog: {
+//         // Display blog posts from your medium or dev.to account. (Optional)
+//         source: 'dev.to', // medium | dev.to
+//         username: 'arifszn',
+//         limit: 3 // How many posts to display. Max is 10.
+//     },
     googleAnalytics: {
         // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
         id: '' // Please remove this and use your own tag id or keep it empty
@@ -87,11 +87,11 @@ module.exports = {
         snippetVersion : 6
     },
     themeConfig: {
-        default: 'dark',
+        default: 'forest',
 
         // Hides the switch in the navbar
         // Useful if you want to support a single color mode
-        disableSwitch: false,
+        disableSwitch: true,
 
         // Should we use the prefers-color-scheme media-query,
         // using user system preferences, instead of the hardcoded default
