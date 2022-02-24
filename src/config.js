@@ -2,11 +2,11 @@
 module.exports = {
     github: {
         username: 'anmolmishra99', // Your GitHub org/user name. (Required)
-        sortBy: 'stars', // stars | updated
+        sortBy: 'updated', // stars | updated
         limit: 8, // How many projects to display.
         exclude: {
             forks: false, // Forked projects will not be displayed if set to true.
-            projects: [''] // These projects will not be displayed. example: ['my-project1', 'my-project2']
+            projects: ['fav'] // These projects will not be displayed. example: ['my-project1', 'my-project2']
         }
     },
     social: {
@@ -54,22 +54,22 @@ module.exports = {
 //     ],
     education: [
         { 
-            institution: 'American International University-Bangladesh',
-            degree: 'Bachelor of Science',
+            institution: 'Naraina Vidya Peeth Engineering and Management Institute',
+            degree: 'Bachelor of Technology - CSE',
+            from: '2019',
+            to: '2023'
+        },
+        { 
+            institution: 'Florets International School',
+            degree: 'XII (CBSE) - PCM | Multimedia',
+            from: '2017',
+            to: '2018',
+        },
+        { 
+            institution: 'Florets International School',
+            degree: 'X (CBSE)',
             from: '2015',
-            to: '2019'
-        },
-        { 
-            institution: 'Cantonment College, Jessore',
-            degree: 'Higher Secondary Certificate (HSC)',
-            from: '2012',
-            to: '2014',
-        },
-        { 
-            institution: 'Chowgacha Shahadat Pilot High School',
-            degree: 'Secondary School Certificate (SSC)',
-            from: '2007',
-            to: '2012'
+            to: '2016'
         }
     ],
 //     blog: {
@@ -87,11 +87,11 @@ module.exports = {
         snippetVersion : 6
     },
     themeConfig: {
-        default: 'forest',
+        default: 'halloween',
 
         // Hides the switch in the navbar
         // Useful if you want to support a single color mode
-        disableSwitch: false,
+        disableSwitch: true,
 
         // Should we use the prefers-color-scheme media-query,
         // using user system preferences, instead of the hardcoded default
