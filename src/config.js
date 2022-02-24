@@ -6,7 +6,7 @@ module.exports = {
         limit: 8, // How many projects to display.
         exclude: {
             forks: true, // Forked projects will not be displayed if set to true.
-            projects: ['Subu'] // These projects will not be displayed. example: ['my-project1', 'my-project2']
+            projects: ['Subu', 'anmolmishra99'] // These projects will not be displayed. example: ['my-project1', 'my-project2']
         }
     },
     social: {
