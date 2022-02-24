@@ -10,16 +10,16 @@ module.exports = {
         }
     },
     social: {
-        linkedin: 'ariful-alam',
-        twitter: 'arif_swozon',
+        linkedin: 'anmolmishra99',
+        twitter: 'anmol_real_wala',
         facebook: '',
         dribbble: '',
         behance: '',
         medium: '',
-        devto: 'arifszn',
-        website: 'https://arifszn.github.io',
+        devto: '',
+        website: 'https://anmolmishra99.github.io/',
         phone: '',
-        email: 'arifulalamszn@gmail.com'
+        email: 'mishraanmol258@gmail.com'
     },
     skills: [
         'Python',
