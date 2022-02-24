@@ -1,12 +1,12 @@
 // config.js
 module.exports = {
     github: {
-        username: 'arifszn', // Your GitHub org/user name. (Required)
+        username: 'anmolmishra99', // Your GitHub org/user name. (Required)
         sortBy: 'stars', // stars | updated
         limit: 8, // How many projects to display.
         exclude: {
             forks: false, // Forked projects will not be displayed if set to true.
-            projects: ['laravel-ecommerce'] // These projects will not be displayed. example: ['my-project1', 'my-project2']
+            projects: [''] // These projects will not be displayed. example: ['my-project1', 'my-project2']
         }
     },
     social: {
@@ -22,15 +22,15 @@ module.exports = {
         email: 'arifulalamszn@gmail.com'
     },
     skills: [
-        'PHP',
-        'Laravel',
-        'JavaScript',
-        'React.js',
-        'Node.js',
+        'Python',
+        'Machine Learning',
+        'Deep Learning',
+        'Tensorflow',
+        'Skikit Learn',
         'MySQL',
         'Git',
-        'Docker',
-        'CSS',
+        'Dart',
+        'Flutter',
         'Antd',
         'Tailwind',
         'Bootstrap',
@@ -83,14 +83,14 @@ module.exports = {
     },
     googleAnalytics: {
         // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-        id: 'G-WLLB5E14M6' // Please remove this and use your own tag id or keep it empty
+        id: '' // Please remove this and use your own tag id or keep it empty
     },
     hotjar: {
-        id: '2617601', //  Please remove this and use your own id or keep it empty
+        id: '', //  Please remove this and use your own id or keep it empty
         snippetVersion : 6
     },
     themeConfig: {
-        default: 'light',
+        default: 'dark',
 
         // Hides the switch in the navbar
         // Useful if you want to support a single color mode
