@@ -31,30 +31,27 @@ module.exports = {
         'Git',
         'Dart',
         'Flutter',
-        'Antd',
-        'Tailwind',
-        'Bootstrap',
     ],
-    experiences: [
-        { 
-            company: 'Monstarlab Bangladesh',
-            position: 'Backend Engineer II',
-            from: 'September 2021',
-            to: 'Present'
-        },
-        { 
-            company: 'Orangetoolz',
-            position: 'Jr. Full Stack Engineer',
-            from: 'July 2019',
-            to: 'August 2021'
-        },
-        { 
-            company: 'Techvillage',
-            position: 'Jr. Software Engineer',
-            from: 'January 2019',
-            to: ' June 2019'
-        }
-    ],
+//     experiences: [
+//         { 
+//             company: 'Monstarlab Bangladesh',
+//             position: 'Backend Engineer II',
+//             from: 'September 2021',
+//             to: 'Present'
+//         },
+//         { 
+//             company: 'Orangetoolz',
+//             position: 'Jr. Full Stack Engineer',
+//             from: 'July 2019',
+//             to: 'August 2021'
+//         },
+//         { 
+//             company: 'Techvillage',
+//             position: 'Jr. Software Engineer',
+//             from: 'January 2019',
+//             to: ' June 2019'
+//         }
+//     ],
     education: [
         { 
             institution: 'American International University-Bangladesh',
