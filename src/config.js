@@ -3,7 +3,7 @@ module.exports = {
     github: {
         username: 'anmolmishra99', // Your GitHub org/user name. (Required)
         sortBy: 'updated', // stars | updated
-        limit: 8, // How many projects to display.
+        limit: 10, // How many projects to display.
         exclude: {
             forks: true, // Forked projects will not be displayed if set to true.
             projects: ['Subu', 'anmolmishra99'] // These projects will not be displayed. example: ['my-project1', 'my-project2']
